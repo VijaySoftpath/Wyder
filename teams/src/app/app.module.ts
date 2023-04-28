@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WyderComponent } from './wyder/wyder.component';
+import { OptevusComponent } from './optevus/optevus.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WyderComponent,
+    OptevusComponent
   ],
   imports: [
     BrowserModule,
